@@ -53,5 +53,5 @@ ggplot(data=Chch_full, aes(x=long, y=lat, group=group)) + geom_polygon(aes(fill=
                   coord_cartesian(ylim=c(5190000,5170000), xlim=c(1560000, 1585000)) +
                   scale_fill_gradient2("#4d4dff", mid = "white", high = "#ff4d4d") + guides(fill=guide_legend(title="Median Income"))
 ```
-![ExampleMap_Chch](ExampleMap_Chch.jpeg)
+![ExampleMap_Chch](Example_Chch.jpeg)
 
